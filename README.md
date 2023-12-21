@@ -31,6 +31,8 @@ This will install the dependencies for the project which are:
 - express (Allows continuous running of server)
 - nodemon (Allows automatic reloads of project when saving project)
 
+Lastly, create a .env file and add follow the .env.sample file to get all the necessary variables to setup the project.
+
 # 3. Project usage
 
 To test out the project and make your own adjustments, head in to routes>route.js and view the "sample" path. The basic setup of a project that accepts a single query param and sends it back is created for this path. You may decide to accept different sorts of information and use it to create your own project. A challenge could be testing what may happen if you try to accept a variable or boolean instead of a string and see how the project responds. How may a developer proceed if there are any challenges?
