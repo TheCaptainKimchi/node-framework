@@ -33,11 +33,21 @@ This will install the dependencies for the project which are:
 
 Lastly, create a .env file and add follow the .env.sample file to get all the necessary variables to setup the project.
 
+Once all the above is setup, you can start the project by typing in your terminal:
+
+``
+    npm start
+``
+
+Typically, you would use ``node server.js`` however, the "nodemon" module allows automatic reloading of the server and is setup to start with npm start.
+
 Note: Although the project is setup for building a scalable server, it is possible to create a node.js server without having the routes>route.js folder/file. You would essentially format the code to have the route.js file inside the server.js file performing the same tasks but would clutter your project if building a larger project. 
 
 # 3. Project usage
 
 To test out the project and make your own adjustments, head in to routes>route.js and view the "sample" path. The basic setup of a project that accepts a single query param and sends it back is created for this path. You may decide to accept different sorts of information and use it to create your own project. A challenge could be testing what may happen if you try to accept a variable or boolean instead of a string and see how the project responds. How may a developer proceed if there are any challenges?
+
+Using something like "Postman" to navigate to a path (ex. http://localhost:8080/sample) may be used but you can also test navigating to the path in your browser. Try to guess what response you may receive when navigating to each path on browser and why it is received this way.
 
 # 4. Learning
 
